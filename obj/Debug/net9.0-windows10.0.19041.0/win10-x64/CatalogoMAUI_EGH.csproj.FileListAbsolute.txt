@@ -519,3 +519,8 @@ C:\Users\estre\source\repos\CatalogoMAUI_EGH\obj\Debug\net9.0-windows10.0.19041.
 C:\Users\estre\source\repos\CatalogoMAUI_EGH\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\estre\source\repos\CatalogoMAUI_EGH\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\estre\source\repos\CatalogoMAUI_EGH\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\estre\source\repos\CatalogoMAUI_EGH\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SQLite-net.dll
+C:\Users\estre\source\repos\CatalogoMAUI_EGH\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
+C:\Users\estre\source\repos\CatalogoMAUI_EGH\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\estre\source\repos\CatalogoMAUI_EGH\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll
+C:\Users\estre\source\repos\CatalogoMAUI_EGH\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\CatalogoMAUI_EGH.sourcelink.json

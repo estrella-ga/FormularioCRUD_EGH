@@ -6,24 +6,47 @@ namespace CatalogoMAUI_EGH
 {
     public partial class MainPage : ContentPage
     {
+        private readonly CatalogoViewModel vm = new();
         public MainPage()
         {
             InitializeComponent();
 
-            //Conecta la pantalla con la losta del ViewModel.
-            BindingContext = new CatalogoViewModel();
+            // Conecta la pantalla con la lista del ViewModel.
+            BindingContext = vm;
 
-            
+
         }
-        private bool abriendoDetalle;
 
-        private async void AlSeleccionarProducto(object? sender, SelectionChangedEventArgs e)
+        // Se vuelve a consultar SQLite al regresar del formulario.
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            try { await vm.CargarAsync(); }
+            catch (Exception ex)
+            {
+                await DisplayAlert("No se cargó el catálogo",
+                $"Revisa el almacenamiento disponible del dispositivo. {ex.Message}", "Aceptar");
+            }
+        }
+        private async void AlAgregarProducto(object? sender, EventArgs e)
+        {
+            if (abriendoDetalle) return;
+            abriendoDetalle = true;
+            try { await Shell.Current.GoToAsync("producto-detalle"); }
+
+            finally { abriendoDetalle = false; }
+        }
+
+        private bool abriendoDetalle;
+        private async void AlSeleccionarProducto(object? sender,
+        SelectionChangedEventArgs e)
         {
             if (abriendoDetalle || e.CurrentSelection.Count == 0)
                 return;
             if (sender is not CollectionView lista ||
             e.CurrentSelection[0] is not Producto producto)
                 return;
+
             abriendoDetalle = true;
             try
             {

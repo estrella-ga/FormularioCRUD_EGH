@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CatalogoMAUI_EGH")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0cc302fcd6f68c3a2802129df0f5bfdc67381ae5")]
 [assembly: System.Reflection.AssemblyProductAttribute("CatalogoMAUI_EGH")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CatalogoMAUI_EGH")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

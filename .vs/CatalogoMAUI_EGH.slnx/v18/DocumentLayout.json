@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\estre\\source\\repos\\CatalogoMAUI_EGH\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4166CF0E-43FB-CBBE-72AE-4491F0E4CFEA}|CatalogoMAUI_EGH.csproj|c:\\users\\estre\\source\\repos\\catalogomaui_egh\\viewmodels\\catalogoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4166CF0E-43FB-CBBE-72AE-4491F0E4CFEA}|CatalogoMAUI_EGH.csproj|solutionrelative:viewmodels\\catalogoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4166CF0E-43FB-CBBE-72AE-4491F0E4CFEA}|CatalogoMAUI_EGH.csproj|c:\\users\\estre\\source\\repos\\catalogomaui_egh\\views\\productodetallepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4166CF0E-43FB-CBBE-72AE-4491F0E4CFEA}|CatalogoMAUI_EGH.csproj|solutionrelative:views\\productodetallepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4166CF0E-43FB-CBBE-72AE-4491F0E4CFEA}|CatalogoMAUI_EGH.csproj|c:\\users\\estre\\source\\repos\\catalogomaui_egh\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4166CF0E-43FB-CBBE-72AE-4491F0E4CFEA}|CatalogoMAUI_EGH.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4166CF0E-43FB-CBBE-72AE-4491F0E4CFEA}|CatalogoMAUI_EGH.csproj|c:\\users\\estre\\source\\repos\\catalogomaui_egh\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4166CF0E-43FB-CBBE-72AE-4491F0E4CFEA}|CatalogoMAUI_EGH.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4166CF0E-43FB-CBBE-72AE-4491F0E4CFEA}|CatalogoMAUI_EGH.csproj|c:\\users\\estre\\source\\repos\\catalogomaui_egh\\services\\fotosproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4166CF0E-43FB-CBBE-72AE-4491F0E4CFEA}|CatalogoMAUI_EGH.csproj|solutionrelative:services\\fotosproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,41 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CatalogoViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\estre\\source\\repos\\CatalogoMAUI_EGH\\ViewModels\\CatalogoViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\CatalogoViewModel.cs",
-              "ToolTip": "C:\\Users\\estre\\source\\repos\\CatalogoMAUI_EGH\\ViewModels\\CatalogoViewModel.cs",
-              "RelativeToolTip": "ViewModels\\CatalogoViewModel.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-20T19:33:53.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\estre\\source\\repos\\CatalogoMAUI_EGH\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\Users\\estre\\source\\repos\\CatalogoMAUI_EGH\\MainPage.xaml",
-              "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-11-20T19:30:47.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\estre\\source\\repos\\CatalogoMAUI_EGH\\Models\\Producto.cs",
-              "RelativeDocumentMoniker": "Models\\Producto.cs",
-              "ToolTip": "C:\\Users\\estre\\source\\repos\\CatalogoMAUI_EGH\\Models\\Producto.cs",
-              "RelativeToolTip": "Models\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Title": "FotosProducto.cs",
+              "DocumentMoniker": "C:\\Users\\estre\\source\\repos\\CatalogoMAUI_EGH\\Services\\FotosProducto.cs",
+              "RelativeDocumentMoniker": "Services\\FotosProducto.cs",
+              "ToolTip": "C:\\Users\\estre\\source\\repos\\CatalogoMAUI_EGH\\Services\\FotosProducto.cs",
+              "RelativeToolTip": "Services\\FotosProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-20T18:50:09.508Z",
+              "WhenOpened": "2026-11-24T02:29:49.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoDetallePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\estre\\source\\repos\\CatalogoMAUI_EGH\\Views\\ProductoDetallePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ProductoDetallePage.xaml.cs",
+              "ToolTip": "C:\\Users\\estre\\source\\repos\\CatalogoMAUI_EGH\\Views\\ProductoDetallePage.xaml.cs",
+              "RelativeToolTip": "Views\\ProductoDetallePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T02:12:11.615Z",
               "EditorCaption": ""
             }
           ]
